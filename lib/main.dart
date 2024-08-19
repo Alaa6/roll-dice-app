@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:second_project/roll_dice.dart';
 
 import 'gradiant_container.dart';
 
@@ -20,7 +21,8 @@ class MyApp extends StatelessWidget {
       ),
       home: const Scaffold(
         // backgroundColor: Colors.pink[500],
-        body: MyCustomContainer(Colors.yellow , Colors.green)
+        // body: MyCustomContainer(Colors.yellow , Colors.green)
+        body: RollDice(),
       ),
     );
   }
