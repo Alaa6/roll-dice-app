@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:second_project/roll_dice.dart';
 
-import 'gradiant_container.dart';
+// import 'gradiant_container.dart';
 
 void main() {
   runApp(const MyApp());
